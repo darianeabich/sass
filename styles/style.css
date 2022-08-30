@@ -1,0 +1,45 @@
+html, body {
+  font-family: "Helvetica", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #42855B;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #90B77D;
+}
+
+.banner {
+  background: url(../../images/banner.jpeg);
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #D2D79F;
+  opacity: 0.7;
+  border-radius: 36px;
+  text-align: center;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #483838;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #483838;
+}/*# sourceMappingURL=style.css.map */
