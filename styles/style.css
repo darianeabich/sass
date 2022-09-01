@@ -142,4 +142,47 @@ nav ul li a:hover {
 #cupom button:hover {
   color: #42855B;
   background-color: #90B77D;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #42855B;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #42855B, #90B77D, #D2D79F, #90B77D, #42855B);
+}
+footer i {
+  color: red;
+}
+
+#mensagem {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 2rem;
+}
+#mensagem .texto {
+  align-self: center;
+  width: 50%;
+  justify-content: center;
+}
+#mensagem .texto .frase1 {
+  font-size: 2rem;
+  color: #42855B;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+#mensagem .texto .frase2 {
+  font-size: 1.2rem;
+  color: #42855B;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+#mensagem .texto .frase3 {
+  font-size: 1.2rem;
+  color: #483838;
+  font-weight: 300;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+@import '../abstract/variables';
+
+#mensagem {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+    .texto {
+        align-self: center;
+        width: 50%;
+        justify-content: center;
+        .frase1 {
+            font-size: $tamanho-texto/1.5;
+            color: $cor-primaria;
+            font-weight: 300;
+            margin-top: 25px;
+            margin-bottom: 20px;
+        }
+        .frase2 {
+            font-size: $tamanho-texto/2.5;
+            color: $cor-primaria;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+        .frase3 {
+            font-size: $tamanho-texto/2.5;
+            color: $cor-texto;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+    }
+}
